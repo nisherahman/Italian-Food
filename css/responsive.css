@@ -1,0 +1,1431 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /* nav part starts */
+    .navbar{
+        background:rgba(39, 41, 44,0.6);
+    }
+    .navbar .navbar-brand img {
+        position: absolute;
+        top: -10px;
+        left: 15px;
+        width: 26%;
+    }
+    .navbar .navbar-toggler{
+        border-color:var(--col1);
+    }
+    .navbar .navbar-toggler i{
+        color:var(--col1);
+    }
+    .navbar-toggler:focus {
+        text-decoration:none;
+        box-sizing:none;
+        outline:none;
+        box-shadow:none;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 118px;
+        margin-bottom: 7px !important;
+        font-size: 14px !important;
+    }
+    .navbar-light  .form form input {
+        margin-right: -42px;
+        padding-left: 0px;
+        margin-left: 47px;
+        margin-bottom: 5px !important;
+    }
+    /* nav part ends */
+
+    /* banner part starts */
+    #banner {
+        padding-top: 240px;
+        padding-bottom: 80px !important;
+    }
+    #banner .banner-text h1 {
+        margin-top: -64px;
+        font-size: 30px !important;
+    }
+    #banner .banner-text h4 {
+        margin-top: 80px;
+    }
+    #banner .banner-text .btn{
+        padding: 8px 20px;
+        margin-top: 30px;
+    }
+    #banner .banner-text .btn a{
+        font-size:15px !important;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    #banner .banner-text .btn a:hover {
+        color: #fff;
+    }
+    #banner .banner-text p {
+        padding-right: -11px;
+        margin-top: 20px;
+        padding-bottom: 20px !important;
+        font-size: 13px !important;
+        padding-right: 59px;
+    }
+    #banner .img-1 img {
+        width: 95% !important;
+        margin-left: 5px;
+    }
+    #banner .img-2 img{
+        display:none;
+    }
+    #banner .img-3 {
+        display: none;
+    }
+    /* banner  part ends */
+
+    /* about part starts  */
+    #about .heading h4 {
+        margin-bottom: 35px !important;
+        font-size: 24px;
+    }
+    #about .heading p {
+        padding: 0px;
+    }
+    #about .about-item .about-img img {
+        width: 100% !important;
+        margin-top: -60px !important;
+    }
+    #about .about-item .about-text {
+        margin-left: 50px;
+    }
+    #about .about-item .about-text h3{
+        font-size: 20px !important;
+    }
+    #about .about-item .about-text p{
+        font-size: 18px !important;
+    }
+    #about .about-btn .btn {
+        padding: 8px 25px;
+        margin-top: 60px;
+    }
+    #about .about-btn .btn a{
+        font-size: 15px !important;
+    }
+    /*  about part ends */
+
+    /* info part starts */
+    #info .heading h4{
+        font-size: 25px;
+    }
+    #info .info-text {
+        padding-right: 0px;
+    }
+    #info .info-text p{
+        font-size:15px !important;
+        margin-bottom: 40px !important;
+    }
+    #info .info-btn .btn {
+        padding: 8px 20px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    #info .info-btn .btn a:hover{
+        color:var(--col1);
+    }
+    /* info  part ends */
+
+    /* discount part starts */
+    #discount {
+        padding-bottom: 40px !important;
+    }
+    #discount .discount-img1 img {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    #discount .discount-text h4 {
+        padding-right: 30px;
+        margin-top: 0px;
+        font-size: 27px !important;
+    }
+    #discount .discount-text p {
+        margin-top: 25px;
+        padding-right:0px;
+        font-size: 16px;
+    }
+    #discount .discount-text .btn{
+        padding: 8px 20px;
+        margin-top: 35px;
+    }
+    #discount .discount-text .btn a{
+        font-size: 15px !important;
+    }
+    #discount .discount-text .head{
+        margin-top: 44px;
+    }
+    #discount .discount-img2 img {
+        width: 100%;
+        margin-top: 55px;
+        margin-left:0px !important;
+    }
+    /* discount part ends */
+
+    /* feedback part starts */
+    #feedback {
+        padding-bottom: 256px !important;
+    }
+    #feedback .heading h4 {
+        margin-top: 65px;
+        font-size: 16px;
+    }
+    #feedback .heading p {
+        margin-top: 50px;
+        width: 293px;
+        margin-left: 0px !important;
+    }
+    #feedback .feedback-img1 img {
+        width: 79%;
+        top: 51px;
+        left: 36px;
+    }
+    #feedback .feedback-img2 img {
+        display: none;
+    }
+    #feedback .feedback-img3 img {
+        display: none;
+    }
+    /* feedback part ends */
+
+    /* service part starts */
+    #service {
+        padding-bottom: 80px !important;
+    }
+    #service .service-item h4 {
+        font-size: 28px;
+        margin-top: 72px !important;
+    }
+    #service .service-item p {
+        margin-top: 20px;
+        font-size: 16px !important;
+    }
+    #service .service-text {
+        margin-top: 95px;
+    }
+    #service .service-text .text {
+        padding:0px 12px;
+        margin-top: 25px;
+    }
+    /* service part ends */
+
+    /* title part starts */
+    #title {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #title .title-text h4{
+        font-size: 32px;
+    }
+    #title .title-text p {
+        padding: 30px 35px;
+    }
+    #title .title-text .form form {
+        margin-top: 40px;
+    }
+    #title .title-text .form form input {
+        padding-top: 2px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-bottom: 5px !important;
+        font-size: 19px !important;
+    }
+    #title .title-text .form form .btn {
+        padding: 5px 15px;
+        margin-top: -4px;
+    }
+    /*  title part ends */
+
+    /*  footer part starts */
+    #footer {
+        padding-top: 100px;
+        padding-bottom: 50px !important;
+    }
+    #footer .footer-item h4{
+        font-size: 20px !important;
+    }
+    #footer .footer-item p {
+        margin-top: 30px;
+        padding-right: 0px;
+        font-size: 14px !important;
+    }
+    #footer .footer-text ul {
+        margin-top: 30px;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 14px !important;
+    }
+    #footer .footer-item .icon {
+        margin-top: 30px;
+        margin-bottom: 55px !important;
+    }
+    #footer .footer-item .icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 2px;
+    }
+    #footer .footer-text{
+        margin-bottom: 75px !important;
+    }
+    /*  footer part ends */
+}
+/*=========================
+extra small device ends
+==========================*/
+
+/*=====================
+small device starts
+=======================*/
+@media (min-width:576px) and (max-width:767px){
+    /*  nav part starts */
+    .navbar{
+        background:rgba(39, 41, 44,0.6);
+    }
+    .navbar .navbar-brand img {
+        position: absolute;
+        top: -17px;
+        left: 15px;
+        width: 20%;
+    }
+    .navbar .navbar-toggler{
+        border-color:var(--col1);
+    }
+    .navbar .navbar-toggler i{
+        color:var(--col1);
+    }
+    .navbar-toggler:focus {
+        text-decoration:none;
+        box-sizing:none;
+        outline:none;
+        box-shadow:none;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 225px;
+        margin-bottom: 7px !important;
+        font-size:20px!important;
+    }
+    .navbar-light .form form input {
+        margin-right: -42px;
+        padding-left: 0px;
+        margin-left: 47px;
+        margin-left: 171px;
+        margin-bottom: 5px !important;
+    }
+    /* nav part ends */
+
+    /* banner part starts */
+    #banner {
+        padding-top: 240px;
+        padding-bottom: 118px !important;
+    }
+    #banner .banner-text h1 {
+        margin-top: -64px;
+        font-size: 35px !important;
+    }
+    #banner .banner-text h4 {
+        margin-top: 80px;
+        font-size: 19px !important;
+    }
+    #banner .banner-text .btn{
+        padding: 8px 25px;
+        margin-top: 30px;
+    }
+    #banner .banner-text .btn a{
+        font-size:15px !important;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    #banner .banner-text .btn a:hover {
+        color: #fff;
+    }
+    #banner .banner-text p {
+        padding-right: -11px;
+        margin-top: 20px;
+        padding-bottom: 20px !important;
+        font-size: 17px !important;
+    }
+    #banner .img-1 img {
+        width: 70% !important;
+        margin-left: 85px;
+    }
+    #banner .img-2 img {
+        width: 71%;
+        margin-left: 49px;
+    }
+    #banner .img-3 img{
+        display: none;
+    }
+    /* banner  part ends */
+
+    /* about part starts  */
+    #about .heading h4 {
+        margin-bottom: 35px !important;
+        font-size: 28px;
+    }
+    #about .heading p {
+        padding: 0px;
+    }
+    #about .about-item .about-img img {
+        width: 70% !important;
+        margin-top: -60px !important;
+        margin-left: 35px;
+    }
+    #about .about-item .about-text {
+        margin-left: 50px;
+    }
+    #about .about-item .about-text h3{
+        font-size: 20px !important;
+    }
+    #about .about-item .about-text p{
+        font-size: 18px !important;
+    }
+    #about .about-btn .btn {
+        padding: 8px 25px;
+        margin-top: 60px;
+    }
+    #about .about-btn .btn a{
+        font-size: 15px !important;
+    }
+    /*  about part ends */
+
+    /* info part starts */
+    #info .heading h4{
+        font-size: 32px;
+    }
+    #info .info-text p {
+        font-size: 14px !important;
+        margin-bottom: 40px !important;
+        line-height: 24px;
+    }
+    #info .info-btn .btn {
+        padding: 8px 25px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    #info .info-btn .btn a:hover{
+        color:var(--col1);
+    }
+    /* info  part ends */
+
+    /* discount part starts */
+    #discount {
+        padding-bottom: 40px !important;
+    }
+    #discount .discount-img1 img {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    #discount .discount-text h4 {
+        padding-right: 30px;
+        margin-top: 0px;
+        font-size: 27px !important;
+    }
+    #discount .discount-text p {
+        margin-top: 25px;
+        padding-right:0px;
+        font-size: 16px;
+    }
+    #discount .discount-text .btn{
+        padding: 8px 20px;
+        margin-top: 35px;
+    }
+    #discount .discount-text .btn a{
+        font-size: 15px !important;
+    }
+    #discount .discount-text .head{
+        margin-top: 44px;
+    }
+    #discount .discount-img2 img {
+        width: 100%;
+        margin-top: 55px;
+        margin-left:0px !important;
+    }
+    /* discount part ends */
+
+    /* feedback part starts */
+    #feedback {
+        padding-bottom: 286px !important;
+    }
+    #feedback .heading h4 {
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    #feedback .heading p {
+        margin-top: 50px;
+        width: 339px;
+        margin-left: 80px !important;
+        margin-bottom: 20px !important;
+    }
+    #feedback .feedback-img1 img {
+        width: 65%;
+        top: 5px;
+        right: 40px;
+    }
+    #feedback .feedback-img2 img {
+        width: 34%;
+        top: 201px;
+        left: 84px;
+    }
+    #feedback .feedback-img3 img {
+        display: none;
+    }
+    /* feedback part ends */
+
+    /* service part starts */
+    #service {
+        padding-bottom: 80px !important;
+        margin-top: 80px;
+    }
+    #service .service-item h4 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+    #service .service-item p {
+        margin-top: 20px;
+        font-size: 17px !important;
+    }
+    #service .service-text {
+        margin-top: 95px;
+    }
+    #service .service-text .text {
+        padding:0px 12px;
+        margin-top: 25px;
+    }
+    /* service part ends */
+
+    /* title part starts */
+    #title {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #title .title-text h4{
+        font-size: 32px;
+    }
+    #title .title-text p {
+        padding: 30px 35px;
+    }
+    #title .title-text .form form {
+        margin-top: 40px;
+    }
+    #title .title-text .form form input {
+        padding-top: 3px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-bottom: 5px !important;
+        font-size: 19px !important;
+    }
+    #title .title-text .form form .btn {
+        padding: 7px 14px;
+        margin-top: -8px;
+    }
+    /*  title part ends */
+
+    /*  footer part starts */
+    #footer {
+        padding-top: 100px;
+        padding-bottom: 50px !important;
+    }
+    #footer .footer-item h4{
+        font-size: 20px !important;
+    }
+    #footer .footer-item p {
+        margin-top: 30px;
+        padding-right: 0px;
+        font-size: 14px !important;
+    }
+    #footer .footer-text ul {
+        margin-top: 30px;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 14px !important;
+    }
+    #footer .footer-item .icon {
+        margin-top: 30px;
+    }
+    #footer .footer-item .icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 8px;
+    }
+    #footer .footer-text{
+        margin-bottom: 75px !important;
+    }
+    /*  footer part ends */
+}
+/*=====================
+small device ends
+=======================*/
+
+/*=====================
+medium device starts
+=======================*/
+@media (min-width:768px) and (max-width:991px){
+    /*  nav part starts */
+    .navbar{
+        background:rgba(39, 41, 44,0.6);
+    }
+    .navbar .navbar-brand img {
+        position: absolute;
+        top: -17px;
+        left: 15px;
+        width: 17%;
+    }
+    .navbar .navbar-toggler{
+        border-color:var(--col1);
+    }
+    .navbar .navbar-toggler i{
+        color:var(--col1);
+    }
+    .navbar-toggler:focus {
+        text-decoration:none;
+        box-sizing:none;
+        outline:none;
+        box-shadow:none;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 252px;
+        margin-bottom: 7px !important;
+        font-size:20px!important;
+    }
+    .navbar-light  .form form input {
+        margin-right: -42px;
+        padding-left: 0px;
+        margin-left: 188px;
+        margin-bottom: 5px !important;
+    }
+    /* nav part ends */
+
+    /* banner part starts */
+    #banner {
+        padding-top: 240px;
+        padding-bottom: 118px !important;
+    }
+    #banner .banner-text h1 {
+        margin-top: -30px;
+        font-size: 44px !important;
+    }
+    #banner .banner-text h4 {
+        margin-top: 80px;
+        font-size: 19px !important;
+    }
+    #banner .banner-text .btn{
+        padding: 8px 25px;
+        margin-top: 30px;
+    }
+    #banner .banner-text .btn a{
+        font-size:15px !important;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    #banner .banner-text .btn a:hover {
+        color: #fff;
+    }
+    #banner .banner-text p {
+        padding-right: -11px;
+        margin-top: 20px;
+        padding-bottom: 20px !important;
+        font-size: 19px !important;
+    }
+    #banner .img-1 img {
+        width: 65% !important;
+        margin-left: 85px;
+    }
+    #banner .img-2 img {
+        width: 71%;
+        margin-left: 49px;
+    }
+    #banner .img-3 {
+        position: absolute;
+        top: 314px;
+        right: 8px;
+    }
+    #banner .img-3 img {
+        width: 76% !important;
+    }
+    /* banner  part ends */
+
+    /* about part starts  */
+    #about .heading h4 {
+        margin-bottom: 35px !important;
+        font-size: 35px;
+        margin-top: 85px !important;
+    }
+    #about .heading p {
+        padding: 12px !important;
+    }
+    #about .about-item .about-img img {
+        width: 58% !important;
+        margin-top: -60px !important;
+        margin-left: 22px;
+    }
+    #about .about-item .about-text {
+        margin-left: 50px;
+    }
+    #about .about-item .about-text h3{
+        font-size: 20px !important;
+    }
+    #about .about-item .about-text p{
+        font-size: 18px !important;
+    }
+    #about .about-btn .btn {
+        padding: 8px 25px;
+        margin-top: 60px;
+    }
+    #about .about-btn .btn a{
+        font-size: 15px !important;
+    }
+    /* about part ends */
+
+    /* info part starts */
+    #info .heading h4{
+        font-size: 32px;
+    }
+    #info .info-text p {
+        font-size: 14px !important;
+        margin-bottom: 40px !important;
+        line-height: 24px;
+    }
+    #info .info-btn .btn {
+        padding: 8px 25px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    #info .info-btn .btn a:hover{
+        color:var(--col1);
+    }
+    /* info  part ends */
+
+    /* discount part starts */
+    #discount {
+        padding-bottom: 40px !important;
+    }
+    #discount .discount-img1 img {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    #discount .discount-text h4 {
+        padding-right: 41px;
+        margin-top: 0px;
+        font-size: 27px !important;
+    }
+    #discount .discount-text p {
+        margin-top: 25px;
+        padding-right: 66px;
+        font-size: 16px;
+    }
+    #discount .discount-text .btn{
+        padding: 8px 20px;
+        margin-top: 35px;
+    }
+    #discount .discount-text .btn a{
+        font-size: 15px !important;
+    }
+    #discount .discount-text .head{
+        margin-top: 44px;
+    }
+    #discount .discount-img2 img {
+        width: 100%;
+        margin-top: 55px;
+        margin-left:0px !important;
+    }
+    /* discount part ends */
+
+    /* feedback part starts */
+    #feedback {
+        padding-bottom: 368px !important;
+    }
+    #feedback .heading h4 {
+        margin-top: 70px;
+        font-size: 28px;
+    }
+    #feedback .heading p {
+        margin-top: 65px;
+        width: 536px;
+        margin-left: 80px !important;
+        margin-bottom: 20px !important;
+    }
+    #feedback .feedback-img1 img {
+        width: 54%;
+        top: 49px;
+        right: 40px;
+    }
+    #feedback .feedback-img2 img {
+        width: 32%;
+        top: 258px;
+        left: 205px;
+    }
+    #feedback .feedback-img3 img {
+        width: 92%;
+        position: absolute;
+        top: -345px;
+        left: -6px;
+    }
+    /* feedback part ends */
+
+    /* service part starts */
+    #service {
+        padding-bottom: 80px !important;
+        margin-top: 80px;
+    }
+    #service .service-item h4 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+    #service .service-item p {
+        margin-top: 20px;
+        font-size: 17px !important;
+    }
+    #service .service-text {
+        margin-top: 95px;
+    }
+    #service .service-text .text {
+        padding:0px 12px;
+        margin-top: 25px;
+    }
+    /* service part ends */
+
+    /* title part starts */
+    #title {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #title .title-text h4{
+        font-size: 32px;
+    }
+    #title .title-text p {
+        padding: 30px 35px;
+    }
+    #title .title-text .form form {
+        margin-top: 40px;
+    }
+    #title .title-text .form form input {
+        padding-top: 3px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-bottom: 5px !important;
+        font-size: 19px !important;
+    }
+    #title .title-text .form form .btn {
+        padding: 7px 14px;
+        margin-top: -8px;
+    }
+    /* title part ends */
+
+    /*  footer part starts */
+    #footer {
+        padding-top: 100px;
+        padding-bottom: 100px !important;
+    }
+    #footer .footer-item h4 {
+        font-size: 32px !important;
+    }
+    #footer .footer-item p {
+        margin-top: 30px;
+        padding-right: 0px;
+        font-size: 19px !important;
+    }
+    #footer .footer-text ul {
+        margin-top: 30px;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 14px !important;
+    }
+    #footer .footer-item .icon {
+        margin-top: 30px;
+    }
+    #footer .footer-item .icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 8px;
+    }
+    #footer .footer-text{
+        margin-bottom: 75px !important;
+    }
+    #footer .footer-text h4{
+        font-size: 32px !important;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 18px !important;
+    }
+    /*  footer part ends */
+}
+/*=====================
+medium device ends
+=======================*/
+
+/*=====================
+large  device starts
+=======================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /*  nav part starts */
+    .navbar .navbar-brand img {
+        position: absolute;
+        top: 145px;
+        left: 28px;
+        width: 10%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 19px;
+        font-size: 16px !important;
+        line-height: 45px;
+    }
+    .navbar-light .form form{
+        line-height:45px;
+    }
+    .navbar-light .form form input {
+        margin-right: -35px;
+        padding-left: -29px;
+    }
+    /* nav part ends */
+
+    /* banner part starts */
+    #banner {
+        padding-top: 240px;
+        padding-bottom: 54px !important;
+    }
+    #banner .banner-text h1 {
+        margin-top: 108px;
+        font-size: 50px !important;
+    }
+    #banner .banner-text h4 {
+        margin-top: 80px;
+        font-size: 19px !important;
+    }
+    #banner .banner-text .btn {
+        padding: 8px 32px;
+        margin-top: 35px;
+    }
+    #banner .banner-text .btn a{
+        font-size:15px !important;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    #banner .banner-text .btn a:hover {
+        color: #fff;
+    }
+    #banner .banner-text p {
+        padding-right: -11px;
+        margin-top: 20px;
+        padding-bottom: 20px !important;
+        font-size: 19px !important;
+    }
+    #banner .img-1 img {
+        width: 85% !important;
+        margin-left: 97px;
+    }
+    #banner .img-2 {
+        position: absolute;
+        bottom: -181px;
+        left: -74px;
+    }
+    #banner .img-2 img {
+        width: 82%;
+    }
+    #banner .img-3 {
+        position: absolute;
+        top: 317px;
+        right: -7px;
+    }
+    #banner .img-3 img {
+        width: 106% !important;
+    }
+    /* banner  part ends */
+
+    /* about part starts  */
+    #about .heading h4 {
+        margin-bottom: 50px !important;
+        font-size: 38px;
+        margin-top: 90px !important;
+    }
+    #about .heading p {
+        padding-right: 323px;
+    }
+    #about .about-item .about-img img {
+        width: 58% !important;
+        margin-top: -38px !important;
+        margin-left: 22px;
+    }
+    #about .about-item .about-text {
+        margin-left: 50px;
+    }
+    #about .about-item .about-text h3{
+        font-size: 20px !important;
+    }
+    #about .about-item .about-text p{
+        font-size: 18px !important;
+    }
+    #about .about-btn .btn {
+        padding: 9px 32px;
+        margin-top: 60px;
+    }
+    #about .about-btn .btn a{
+        font-size: 15px !important;
+    }
+    /* about part ends */
+    
+    /* info part starts */
+    #info .heading h4 {
+        font-size: 38px;
+    }
+    #info .info-text p {
+        font-size: 15px !important;
+        margin-bottom: 40px !important;
+        line-height: 24px;
+        padding-right: 50px;
+    }
+    #info .info-btn .btn {
+        padding: 9px 32px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    #info .info-btn .btn a:hover{
+        color:var(--col1);
+    }
+    /* info  part ends */
+
+    /* discount part starts */
+    #discount {
+        padding-bottom: 40px !important;
+    }
+    #discount .discount-img1 img {
+        width: 90%;
+        margin-left: 0px !important;
+    }
+    #discount .discount-text {
+        margin-top: 80px;
+    }
+    #discount .discount-text h4 {
+        padding-right: 41px;
+        margin-top: 0px;
+        font-size: 27px !important;
+    }
+    #discount .discount-text p {
+        margin-top: 25px;
+        padding-right: 66px;
+        font-size: 16px;
+    }
+    #discount .discount-text .btn{
+        padding: 8px 20px;
+        margin-top: 35px;
+    }
+    #discount .discount-text .btn a{
+        font-size: 15px !important;
+    }
+    #discount .discount-text .head {
+        margin-top: 192px;
+    }
+    #discount .discount-img2 img {
+        width: 100%;
+        margin-top: 55px;
+        margin-left:0px !important;
+    }
+    /* discount part ends */
+
+    /* feedback part starts */
+    #feedback {
+        padding-bottom: 377px !important;
+    }
+    #feedback .heading h4 {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    #feedback .heading p {
+        margin-top: 56px;
+        margin-left: 220px !important;
+        margin-bottom: 26px !important;
+    }
+    #feedback .feedback-img1 img {
+        width: 47%;
+        top: 5px;
+        right: 40px;
+    }
+    #feedback .feedback-img2 img {
+        width: 29%;
+        top: 251px;
+        left: 354px;
+    }
+    #feedback .feedback-img3 img {
+        width: 95%;
+        position: absolute;
+        top: -419px;
+        left: 47px;
+    }
+    /* feedback part ends */
+
+    /* service part starts */
+    #service {
+        padding-bottom: 70px !important;
+        margin-top: 80px;
+    }
+    #service .service-item h4 {
+        font-size: 38px;
+        margin-top: 40px;
+    }
+    #service .service-item p {
+        margin-top: 33px;
+        font-size: 17px !important;
+        padding-right: 33px;
+    }
+    #service .service-text {
+        margin-top: 95px;
+    }
+    #service .service-text .text {
+        margin-top: 12px;
+        padding-right: 110px;
+        margin-left: -155px;
+    }
+    /* service part ends */
+
+    /* title part starts */
+    #title {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #title .title-text h4 {
+        font-size: 35px;
+    }
+    #title .title-text p {
+        padding: 30px 208px;
+    }
+    #title .title-text .form form {
+        margin-top: 50px;
+    }
+    #title .title-text .form form input {
+        padding-top: 3px;
+        padding-left: 18px;
+        padding-right: 116px;
+        padding-bottom: 5px !important;
+        font-size: 20px !important;
+    }
+    #title .title-text .form form .btn {
+        padding: 7px 23px;
+        margin-top: -8px;
+    }
+    /* title part ends */
+
+    /*  footer part starts */
+    #footer {
+        padding-top: 100px;
+        padding-bottom: 100px !important;
+    }
+    #footer .footer-item h4 {
+        font-size: 32px !important;
+    }
+    #footer .footer-item p {
+        margin-top: 30px;
+        padding-right: 87px;
+        font-size: 17px !important;
+    }
+    #footer .footer-text ul {
+        margin-top: 30px;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 5px !important;
+        font-size: 16px !important;
+    }
+    #footer .footer-item .icon {
+        margin-top: 30px;
+    }
+    #footer .footer-item .icon i {
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        margin-right: 13px;
+    }
+    #footer .footer-text{
+        margin-bottom: 75px !important;
+    }
+    #footer .footer-text h4{
+        font-size: 32px !important;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 18px !important;
+    }
+    /*  footer part ends */
+}
+/*=====================
+large  device ends
+=======================*/
+
+/*===============================
+extra extra large  device starts
+=================================*/
+@media(min-width:1400px) {
+    /*  nav part starts */
+    .navbar .navbar-brand img {
+        position: absolute;
+        top: 145px;
+        width: 10%;
+        margin-left: -41px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 60px;
+        font-size: 16px !important;
+        line-height: 45px;
+    }
+    .navbar-light .form form{
+        line-height:45px;
+        margin-right: 50px;
+    }
+    .navbar-light .form form input {
+        margin-right: -35px;
+        padding-left: -29px;
+    }
+    /* nav part ends */
+
+    /* banner part starts */
+    #banner {
+        padding-top: 240px;
+        padding-bottom: 54px !important;
+    }
+    #banner .banner-text h1 {
+        margin-top: 108px;
+        font-size: 50px !important;
+    }
+    #banner .banner-text h4 {
+        margin-top: 80px;
+        font-size: 19px !important;
+    }
+    #banner .banner-text .btn {
+        padding: 12px 45px;
+        margin-top: 35px;
+    }
+    #banner .banner-text .btn a{
+        font-size:15px !important;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    #banner .banner-text .btn a:hover {
+        color: #fff;
+    }
+    #banner .banner-text p {
+        padding-right: -11px;
+        margin-top: 20px;
+        padding-bottom: 20px !important;
+        font-size: 19px !important;
+        padding-right: 194px;
+    }
+    #banner .img-1 img {
+        width: 85% !important;
+        margin-left: 97px;
+    }
+    #banner .img-2 {
+        position: absolute;
+        bottom: -74px;
+        left: -79px;
+    }
+    #banner .img-2 img {
+        width: 85%;
+    }
+    #banner .img-3 {
+        position: absolute;
+        top: 376px;
+        right: 0px;
+    }
+    #banner .img-3 img {
+        width: 74% !important;
+    }
+    /* banner  part ends */
+
+    /* about part starts  */
+    #about .heading h4 {
+        margin-bottom: 50px !important;
+        font-size: 38px;
+        margin-top: 90px !important;
+    }
+    #about .heading p {
+        padding-right: 323px;
+    }
+    #about .about-item .about-img img {
+        width: 95% !important;
+        margin-top: -38px !important;
+    }
+    #about .about-item .about-text {
+        margin-left: 50px;
+    }
+    #about .about-item .about-text h3{
+        font-size: 20px !important;
+    }
+    #about .about-item .about-text p{
+        font-size: 18px !important;
+    }
+    #about .about-btn .btn {
+        padding: 12px 45px;
+        margin-top: 60px;
+    }
+    #about .about-btn .btn a{
+        font-size: 15px !important;
+    }
+    /* about part ends */
+
+    /* info part starts */
+    #info .heading h4 {
+        font-size: 38px;
+    }
+    #info .info-text p {
+        font-size: 15px !important;
+        margin-bottom: 40px !important;
+        line-height: 24px;
+        padding-right: 83px;
+    }
+    #info .info-btn .btn {
+        padding: 12px 45px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    #info .info-btn .btn a:hover{
+        color:var(--col1);
+    }
+    /* info  part ends */
+
+    /* discount part starts */
+    #discount .discount-text h4 {
+        padding-right: 259px;
+    }
+    /* discount part ends */
+
+    /* feedback part starts */
+    #feedback .heading p {
+        margin-left: 389px !important;
+    }
+    #feedback .feedback-img1 img {
+        width: 40%;
+        position: absolute;
+        top: 122px;
+        right: 122px;
+    }
+    #feedback .feedback-img2 img {
+        width: 23%;
+        position: absolute;
+        top: 403px;
+        left: 561px;
+    }
+    #feedback .feedback-img3 img {
+        width: 88%;
+        position: absolute;
+        top: -378px;
+        left: 50px;
+    }
+    /* feedback part ends */
+
+    /* service part starts */
+    #service {
+        padding-bottom: 70px !important;
+        margin-top: 80px;
+    }
+    #service .service-item h4 {
+        font-size: 38px;
+        margin-top: 40px;
+    }
+    #service .service-item p {
+	    margin-top: 33px;
+	    font-size: 17px !important;
+	    padding-right: 64px;
+    }
+    #service .service-text {
+        margin-top: 95px;
+    }
+    #service .service-text .text {
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+    /* service part ends */
+
+    /* title part starts */
+    #title {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #title .title-text h4 {
+        font-size: 35px;
+    }
+    #title .title-text p {
+        padding: 30px 360px;
+    }
+    #title .title-text .form form {
+        margin-top: 50px;
+    }
+    #title .title-text .form form input {
+        padding-top: 3px;
+        padding-left: 18px;
+        padding-right: 116px;
+        padding-bottom: 5px !important;
+        font-size: 20px !important;
+    }
+    #title .title-text .form form .btn {
+        padding: 7px 23px;
+        margin-top: -8px;
+    }
+    /* title part ends */
+
+    /*  footer part starts */
+    #footer {
+        padding-top: 150px;
+        padding-bottom: 130px !important;
+    }
+    #footer .footer-item h4 {
+        font-size: 32px !important;
+    }
+    #footer .footer-item p {
+        margin-top: 30px;
+        padding-right: 217px;
+        font-size: 19px !important;
+    }
+    #footer .footer-text ul {
+        margin-top: 30px;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 14px !important;
+    }
+    #footer .footer-item .icon {
+        margin-top: 30px;
+    }
+    #footer .footer-item .icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 8px;
+    }
+    #footer .footer-text{
+        margin-bottom: 75px !important;
+    }
+    #footer .footer-text h4{
+        font-size: 32px !important;
+    }
+    #footer .footer-text ul li {
+        padding-bottom: 3px !important;
+        font-size: 18px !important;
+    }
+    /*  footer part ends */    
+}
+/*===============================
+extra extra large  device ends
+=================================*/                    
